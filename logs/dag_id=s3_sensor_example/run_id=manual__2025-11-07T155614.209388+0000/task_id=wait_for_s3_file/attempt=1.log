@@ -1,0 +1,8 @@
+{"timestamp":"2025-11-07T15:56:16.520900","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-11-07T15:56:16.529427","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/s3_sensor_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-11-07T15:56:19.880407","level":"info","event":"Poking for key : s3://airflowbucket0611/data/base_dataset.csv","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.s3.S3KeySensor"}
+{"timestamp":"2025-11-07T15:56:19.942744","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-11-07T15:56:20.020691","level":"info","event":"Connection Retrieved 'aws_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-11-07T15:56:20.021020","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2025-11-07T15:57:37.330760","level":"info","event":"Poking for key : s3://airflowbucket0611/data/base_dataset.csv","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.s3.S3KeySensor"}
+{"timestamp":"2025-11-07T15:57:38.504641","level":"info","event":"Success criteria met. Exiting.","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.s3.S3KeySensor"}

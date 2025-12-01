@@ -1,0 +1,4 @@
+{"timestamp":"2025-09-20T06:38:31.573398","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-20T06:39:20.177649","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-20T06:39:50.918523","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-20T06:40:21.459577","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py","logger":"airflow.models.dagbag.DagBag"}
