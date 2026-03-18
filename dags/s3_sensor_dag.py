@@ -24,8 +24,8 @@ with DAG(
 
     wait_for_s3_file = S3KeySensor(
         task_id="wait_for_s3_file",
-        bucket_key="data/base_dataset.csv",   # key or path inside bucket
-        bucket_name="airflowbucket0611",       # your S3 bucket
+        bucket_key="landing/base_dataset.csv",   # key or path inside bucket
+        bucket_name="glue-practice-31052025",       # your S3 bucket
         aws_conn_id="aws_default",     # defined in Airflow Connections
         poke_interval=60,              # check every 60 seconds
         timeout=60 * 60,               # stop after 1 hour

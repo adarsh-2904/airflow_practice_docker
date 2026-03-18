@@ -1,0 +1,4 @@
+{"timestamp":"2025-12-09T11:32:14.892299","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-12-09T11:32:14.903365","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/s3_sensor_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-12-09T11:32:16.636705Z","level":"info","event":"S3 file is now available!","chan":"stdout","logger":"task"}
+{"timestamp":"2025-12-09T11:32:16.108160","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
