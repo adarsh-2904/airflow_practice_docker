@@ -1,0 +1,35 @@
+{"timestamp":"2026-03-19T14:23:40.658487","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-03-19T14:23:40.659314","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_to_explore_dag_context.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-19T14:23:40.770087Z","level":"info","event":"DAG Context:","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.778043Z","level":"info","event":"dag: <DAG: dag_to_explore_dag_context>","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.781797Z","level":"info","event":"inlets: []","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.784356Z","level":"info","event":"map_index_template: None","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.787144Z","level":"info","event":"outlets: []","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.789255Z","level":"info","event":"run_id: scheduled__2026-03-19T00:00:00+00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.792435Z","level":"info","event":"task: <Task(PythonOperator): context_task>","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.795190Z","level":"info","event":"task_instance: id=UUID('019d0678-aef7-732b-8793-cb7ff46ad30e') task_id='context_task' dag_id='dag_to_explore_dag_context' run_id='scheduled__2026-03-19T00:00:00+00:00' try_number=2 map_index=-1 hostname='e5bb110ec66b' context_carrier={} task=<Task(PythonOperator): context_task> bundle_instance=LocalDagBundle(name=dags-folder) max_tries=5 start_date=datetime.datetime(2026, 3, 19, 14, 23, 40, 186942, tzinfo=TzInfo(UTC)) end_date=None is_mapped=False","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.799238Z","level":"info","event":"ti: id=UUID('019d0678-aef7-732b-8793-cb7ff46ad30e') task_id='context_task' dag_id='dag_to_explore_dag_context' run_id='scheduled__2026-03-19T00:00:00+00:00' try_number=2 map_index=-1 hostname='e5bb110ec66b' context_carrier={} task=<Task(PythonOperator): context_task> bundle_instance=LocalDagBundle(name=dags-folder) max_tries=5 start_date=datetime.datetime(2026, 3, 19, 14, 23, 40, 186942, tzinfo=TzInfo(UTC)) end_date=None is_mapped=False","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.803897Z","level":"info","event":"outlet_events: OutletEventAccessors(_dict={})","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.805240Z","level":"info","event":"inlet_events: InletEventsAccessors(_inlets=[], _assets={}, _asset_aliases={})","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.805697Z","level":"info","event":"macros: <MacrosAccessor (dynamic access to macros)>","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.806030Z","level":"info","event":"params: {}","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.806310Z","level":"info","event":"var: {'json': <VariableAccessor (dynamic access)>, 'value': <VariableAccessor (dynamic access)>}","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.806648Z","level":"info","event":"conn: <ConnectionAccessor (dynamic access)>","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.806948Z","level":"info","event":"dag_run: dag_id='dag_to_explore_dag_context' run_id='scheduled__2026-03-19T00:00:00+00:00' logical_date=datetime.datetime(2026, 3, 19, 0, 0, tzinfo=TzInfo(UTC)) data_interval_start=datetime.datetime(2026, 3, 19, 0, 0, tzinfo=TzInfo(UTC)) data_interval_end=datetime.datetime(2026, 3, 19, 0, 0, tzinfo=TzInfo(UTC)) run_after=datetime.datetime(2026, 3, 19, 0, 0, tzinfo=TzInfo(UTC)) start_date=datetime.datetime(2026, 3, 19, 14, 21, 5, 918022, tzinfo=TzInfo(UTC)) end_date=None clear_number=0 run_type=<DagRunType.SCHEDULED: 'scheduled'> conf={} consumed_asset_events=[]","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.807274Z","level":"info","event":"triggering_asset_events: TriggeringAssetEventAccessor(_events=defaultdict(<class 'list'>, {}))","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.807683Z","level":"info","event":"task_instance_key_str: dag_to_explore_dag_context__context_task__20260319","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.808006Z","level":"info","event":"task_reschedule_count: 0","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.834750Z","level":"info","event":"prev_start_date_success: 2026-03-18 16:30:49.837717+00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.835322Z","level":"info","event":"prev_end_date_success: 2026-03-18 16:30:55.766209+00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.835812Z","level":"info","event":"logical_date: 2026-03-19 00:00:00+00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.836240Z","level":"info","event":"ds: 2026-03-19","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.836565Z","level":"info","event":"ds_nodash: 20260319","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.836979Z","level":"info","event":"ts: 2026-03-19T00:00:00+00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.837336Z","level":"info","event":"ts_nodash: 20260319T000000","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.837680Z","level":"info","event":"ts_nodash_with_tz: 20260319T000000+0000","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.838023Z","level":"info","event":"data_interval_end: 2026-03-19 00:00:00+00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.838356Z","level":"info","event":"data_interval_start: 2026-03-19 00:00:00+00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.838687Z","level":"info","event":"prev_data_interval_start_success: 2026-03-18 16:30:43.590000+00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.839007Z","level":"info","event":"prev_data_interval_end_success: 2026-03-18 16:30:43.590000+00:00","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.839309Z","level":"info","event":"templates_dict: None","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T14:23:40.771378","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

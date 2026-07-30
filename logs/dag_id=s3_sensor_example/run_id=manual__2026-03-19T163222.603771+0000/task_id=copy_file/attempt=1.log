@@ -1,0 +1,13 @@
+{"timestamp":"2026-03-19T16:34:43.162394","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-03-19T16:34:43.163420","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/s3_sensor_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-19T16:34:43.597520","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-03-19T16:34:43.633101","level":"info","event":"Connection Retrieved 'aws_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-03-19T16:34:43.633384","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:34:43.633567","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') session token retrieved from extra, please note you are responsible for renewing these.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:34:47.388688Z","level":"info","event":"Copied landing/base_dataset.csv → processed/date=2026-03-19/hr_records.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T16:34:47.672687Z","level":"info","event":"File stats for 2026-03-19:","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T16:34:47.690213Z","level":"info","event":"  Total rows (incl header): 3723","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T16:34:47.705994Z","level":"info","event":"  Header: Education,JoiningYear,City,PaymentTier,Age,Gender,EverBenched,ExperienceInCurrentDomain,LeaveOrNot,nk_id,load_ts","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T16:34:47.718845Z","level":"info","event":"  First record: Bachelors,2016,Bangalore,3,24,Female,No,2,1,1,08-07-2025 21:49","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T16:34:47.720268Z","level":"info","event":"  Destination: s3://glue-practice-31052025/processed/date=2026-03-19/hr_records.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2026-03-19T16:34:47.677016","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

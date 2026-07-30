@@ -1,0 +1,104 @@
+{"timestamp":"2026-03-19T16:32:24.495496","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-03-19T16:32:24.496697","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/s3_sensor_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-19T16:32:24.878769","level":"info","event":"Poking for key : s3://glue-practice-31052025/landing/base_dataset.csv","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.s3.S3KeySensor"}
+{"timestamp":"2026-03-19T16:32:24.882472","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-03-19T16:32:25.835336","level":"info","event":"Connection Retrieved 'aws_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-03-19T16:32:25.835645","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:32:25.835762","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') session token retrieved from extra, please note you are responsible for renewing these.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:32:29.761872","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-03-19T16:32:35.461103","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-03-19T16:32:35.461909","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/s3_sensor_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-19T16:32:35.999211","level":"info","event":"Poking for key : s3://glue-practice-31052025/landing/base_dataset.csv","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.s3.S3KeySensor"}
+{"timestamp":"2026-03-19T16:32:36.002895","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-03-19T16:32:36.034525","level":"info","event":"Connection Retrieved 'aws_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-03-19T16:32:36.034907","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:32:36.035083","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') session token retrieved from extra, please note you are responsible for renewing these.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:32:41.477472","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-03-19T16:32:47.939574","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-03-19T16:32:47.940334","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/s3_sensor_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-19T16:32:48.279680","level":"info","event":"Poking for key : s3://glue-practice-31052025/landing/base_dataset.csv","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.s3.S3KeySensor"}
+{"timestamp":"2026-03-19T16:32:48.285404","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-03-19T16:32:48.295972","level":"info","event":"Connection Retrieved 'aws_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-03-19T16:32:48.296330","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:32:48.296457","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') session token retrieved from extra, please note you are responsible for renewing these.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:32:51.836085","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-03-19T16:32:58.544919","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-03-19T16:32:58.545938","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/s3_sensor_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-19T16:32:59.105775","level":"info","event":"Poking for key : s3://glue-practice-31052025/landing/base_dataset.csv","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.s3.S3KeySensor"}
+{"timestamp":"2026-03-19T16:32:59.118577","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-03-19T16:32:59.141798","level":"info","event":"Connection Retrieved 'aws_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-03-19T16:32:59.142240","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:32:59.142470","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') session token retrieved from extra, please note you are responsible for renewing these.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:33:03.264970","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-03-19T16:33:08.946675","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-03-19T16:33:08.947667","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/s3_sensor_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-19T16:33:09.206993","level":"info","event":"Poking for key : s3://glue-practice-31052025/landing/base_dataset.csv","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.s3.S3KeySensor"}
+{"timestamp":"2026-03-19T16:33:09.214320","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-03-19T16:33:09.243535","level":"info","event":"Connection Retrieved 'aws_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-03-19T16:33:09.243911","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:33:09.244139","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') session token retrieved from extra, please note you are responsible for renewing these.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:33:13.396171","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-03-19T16:33:19.230307","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-03-19T16:33:19.239778","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/s3_sensor_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-19T16:33:19.909375","level":"info","event":"Poking for key : s3://glue-practice-31052025/landing/base_dataset.csv","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.s3.S3KeySensor"}
+{"timestamp":"2026-03-19T16:33:19.925806","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-03-19T16:33:19.984606","level":"info","event":"Connection Retrieved 'aws_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-03-19T16:33:19.984933","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:33:19.985077","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') session token retrieved from extra, please note you are responsible for renewing these.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:33:23.937661","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-03-19T16:33:29.730372","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-03-19T16:33:29.731291","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/s3_sensor_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-19T16:33:30.146604","level":"info","event":"Poking for key : s3://glue-practice-31052025/landing/base_dataset.csv","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.s3.S3KeySensor"}
+{"timestamp":"2026-03-19T16:33:30.150443","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-03-19T16:33:30.191878","level":"info","event":"Connection Retrieved 'aws_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-03-19T16:33:30.192327","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:33:30.192532","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') session token retrieved from extra, please note you are responsible for renewing these.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:33:34.405738","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-03-19T16:33:39.952413","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-03-19T16:33:39.954773","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/s3_sensor_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-19T16:33:40.219073","level":"info","event":"Poking for key : s3://glue-practice-31052025/landing/base_dataset.csv","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.s3.S3KeySensor"}
+{"timestamp":"2026-03-19T16:33:40.221061","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-03-19T16:33:40.230829","level":"info","event":"Connection Retrieved 'aws_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-03-19T16:33:40.231084","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:33:40.231211","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') session token retrieved from extra, please note you are responsible for renewing these.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:33:43.901671","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-03-19T16:33:50.328900","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-03-19T16:33:50.329774","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/s3_sensor_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-19T16:33:50.659429","level":"info","event":"Poking for key : s3://glue-practice-31052025/landing/base_dataset.csv","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.s3.S3KeySensor"}
+{"timestamp":"2026-03-19T16:33:50.662340","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-03-19T16:33:50.675271","level":"info","event":"Connection Retrieved 'aws_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-03-19T16:33:50.675825","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:33:50.676183","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') session token retrieved from extra, please note you are responsible for renewing these.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:33:54.814059","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-03-19T16:34:01.233644","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-03-19T16:34:01.234274","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/s3_sensor_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-19T16:34:01.440672","level":"info","event":"Poking for key : s3://glue-practice-31052025/landing/base_dataset.csv","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.s3.S3KeySensor"}
+{"timestamp":"2026-03-19T16:34:01.444296","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-03-19T16:34:01.455243","level":"info","event":"Connection Retrieved 'aws_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-03-19T16:34:01.455521","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:34:01.455623","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') session token retrieved from extra, please note you are responsible for renewing these.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:34:05.145131","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-03-19T16:34:11.265613","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-03-19T16:34:11.266385","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/s3_sensor_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-19T16:34:11.479903","level":"info","event":"Poking for key : s3://glue-practice-31052025/landing/base_dataset.csv","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.s3.S3KeySensor"}
+{"timestamp":"2026-03-19T16:34:11.483202","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-03-19T16:34:11.494189","level":"info","event":"Connection Retrieved 'aws_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-03-19T16:34:11.494517","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:34:11.494629","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') session token retrieved from extra, please note you are responsible for renewing these.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:34:15.572498","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-03-19T16:34:21.843277","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-03-19T16:34:21.844326","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/s3_sensor_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-19T16:34:22.375012","level":"info","event":"Poking for key : s3://glue-practice-31052025/landing/base_dataset.csv","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.s3.S3KeySensor"}
+{"timestamp":"2026-03-19T16:34:22.378567","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-03-19T16:34:22.399819","level":"info","event":"Connection Retrieved 'aws_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-03-19T16:34:22.401115","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:34:22.403214","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') session token retrieved from extra, please note you are responsible for renewing these.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:34:29.358686","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-03-19T16:34:35.782321","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-03-19T16:34:35.783315","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/s3_sensor_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-03-19T16:34:36.438014","level":"info","event":"Poking for key : s3://glue-practice-31052025/landing/base_dataset.csv","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.s3.S3KeySensor"}
+{"timestamp":"2026-03-19T16:34:36.447138","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-03-19T16:34:36.461972","level":"info","event":"Connection Retrieved 'aws_default'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-03-19T16:34:36.462311","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:34:36.462429","level":"info","event":"AWS Connection (conn_id='aws_default', conn_type='aws') session token retrieved from extra, please note you are responsible for renewing these.","logger":"airflow.providers.amazon.aws.utils.connection_wrapper.AwsConnectionWrapper"}
+{"timestamp":"2026-03-19T16:34:42.185157","level":"info","event":"Success criteria met. Exiting.","logger":"airflow.task.operators.airflow.providers.amazon.aws.sensors.s3.S3KeySensor"}
